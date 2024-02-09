@@ -4,6 +4,9 @@
 
 function reverseString(str) {
     const strRev =  Array.from(str).reverse().join("");
+    //Array.from() to change from string to array
+    //reverse() to reverse the array
+    //join() to join the array into one string
     console.log(strRev);
 }
 reverseString("JavaScript");
