@@ -7,16 +7,15 @@ function checkNumber(num){
     let result = "";
     
     if(num==0){
-        //to check for zero
         result="Zero";
     }else if(num>0){
-        //to check for positive number
         result="Positive number";
     }else{
-        //to check for negative number
         result="Negative number";
     }
     console.log(result);
 }
 
 checkNumber(0);
+checkNumber(15);
+checkNumber(-35);
