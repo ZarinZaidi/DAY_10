@@ -4,11 +4,13 @@
 3. Write a JavaScript script that adds an event listener to the button.
 4. When the button is clicked, change the content of the paragraph to display a custom message.*/
 
+//declare a variables from <p> to change it later
 const text = document.querySelector("p");
 
+//event listener added to the button
 document.getElementById("try").addEventListener("click", tryFunction);
 
 function tryFunction() {
-    //change <p>Look! The parapgraph content changed.</p>
+    //change the text of <p> upon calling
     text.innerText = "Look! The parapgraph content changed.";
 }
