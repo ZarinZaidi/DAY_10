@@ -12,5 +12,5 @@ document.getElementById("try").addEventListener("click", tryFunction);
 
 function tryFunction() {
     //change the text of <p> upon calling
-    text.innerText = "Look! The parapgraph content changed.";
+    text.innerText = "Look! The paragraph content changed.";
 }

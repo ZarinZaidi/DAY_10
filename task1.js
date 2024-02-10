@@ -6,7 +6,7 @@
 var num1=10, num2=15;
 
 console.log(num1 + " plus " + num2 + " equals to " + (num1+num2))
-console.log(num1 + " minus " + num2 + "equals to "+ (num1-num2))
+console.log(num1 + " minus " + num2 + " equals to "+ (num1-num2))
 console.log(num1 + " multiply by " + num2 + " equals to "+ (num1*num2))
 console.log(num1 + " divide by " + num2 + " equals to "+ (num1/num2))
 

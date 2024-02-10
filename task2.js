@@ -20,3 +20,5 @@ function checkNumber(num){
 }
 
 checkNumber(0);
+checkNumber(15);
+checkNumber(-35);
